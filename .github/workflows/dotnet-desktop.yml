@@ -83,7 +83,7 @@ jobs:
 
     # Restore the application to populate the obj folder with RuntimeIdentifiers
     - name: Restore the application
-      run: msbuild $env:Wap_Project_Directory\$env:Wap_Project_Path /t:Restore /p:Configuration=$env:Configuration /verbosity:diagnostics
+      run: msbuild WinFormNet8\WinFormNet8.csproj /t:Restore /p:Configuration=$env:Configuration /verbosity:diag
       env:
         Configuration: ${{ matrix.configuration }}
 
