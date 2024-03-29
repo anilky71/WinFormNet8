@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormNet8", "WinFormNet8\WinFormNet8.csproj", "{EC8011D9-C915-49C3-9BC5-62C190416604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormNet8", "WinFormNet8\WinFormNet8.csproj", "{EC8011D9-C915-49C3-9BC5-62C190416604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsNet8Tests", "WinFormsNet8Tests\WinFormsNet8Tests.csproj", "{17EB1E2E-7B7F-4D7B-B9AF-67017A2DC7ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EC8011D9-C915-49C3-9BC5-62C190416604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC8011D9-C915-49C3-9BC5-62C190416604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC8011D9-C915-49C3-9BC5-62C190416604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17EB1E2E-7B7F-4D7B-B9AF-67017A2DC7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EB1E2E-7B7F-4D7B-B9AF-67017A2DC7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EB1E2E-7B7F-4D7B-B9AF-67017A2DC7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EB1E2E-7B7F-4D7B-B9AF-67017A2DC7ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

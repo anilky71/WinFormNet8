@@ -10,6 +10,10 @@ namespace WinFormNet8
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello World!!!");
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
